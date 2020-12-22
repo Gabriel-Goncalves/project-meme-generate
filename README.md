@@ -1,11 +1,12 @@
 # Boas vindas ao repositório do projeto Meme Generator!
 
-Projeto desenvolvido por [Gabriel Gonçalves](https://www.linkedin.com/in/gabriel-goncalves-medeiros/){:target="_blank"} durante o curso de desenvolvimento de software na [Trybe](https://www.betrybe.com/){:target="_blank"}
-.
+Projeto desenvolvido por <a href="https://www.linkedin.com/in/gabriel-goncalves-medeiros/" target="_blank">Gabriel Gonçalves</a> durante o curso de desenvolvimento de software na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.
 
 Projeto referente ao bloco 5 (JavaScript: DOM, Eventos e Storage)
 
-[Pull Request do projeto](https://github.com/tryber/sd-08-project-meme-generate/pull/4){:target="_blank"}
+<a href="https://github.com/tryber/sd-08-project-meme-generate/pull/4" target="_blank">Pull Request do projeto</a>
+
+
 
 
 ## Requisitos do projeto
