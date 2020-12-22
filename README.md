@@ -1,13 +1,10 @@
 # Boas vindas ao repositório do projeto Meme Generator!
 
-Projeto desenvolvido por <a href="https://www.linkedin.com/in/gabriel-goncalves-medeiros/" target="_blank">Gabriel Gonçalves</a> durante o curso de desenvolvimento de software na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.
+Projeto desenvolvido por [Gabriel Gonçalves](https://www.linkedin.com/in/gabriel-goncalves-medeiros/) durante o curso de desenvolvimento de software na [Trybe](https://www.betrybe.com/).
 
 Projeto referente ao bloco 5 (JavaScript: DOM, Eventos e Storage)
 
-<a href="https://github.com/tryber/sd-08-project-meme-generate/pull/4" target="_blank">Pull Request do projeto</a>
-
-
-
+[Pull Request do projeto](https://github.com/tryber/sd-08-project-meme-generate/pull/4)
 
 ## Requisitos do projeto
 
@@ -101,5 +98,61 @@ Projeto referente ao bloco 5 (JavaScript: DOM, Eventos e Storage)
 - As imagens devem aparecer dentro do container de forma análoga às imagens enviadas por _upload_ para a página.
 
 ---
+
+## Dicas
+
+- Para fazer este projeto você deverá atribuir ao texto que vai sobre a imagem o estilo `position: absolute;`. Leia mais sobre ele [aqui](https://www.w3schools.com/css/css_positioning.asp).
+
+- Para que um elemento filho fique posicionado na frente de um elemento `container` você pode deve utilizar `position: relative;` na estilização do elemento `container` e `position: absolute` no elemento filho. [Esse post pode ajudar a entender a solução.](https://dzone.com/articles/css-position-relative-vs-position-absolute)
+
+- Para receber os dados da **imagem** e do **texto** do meme, é preciso utilizar a tag ["input"](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input). Consulte a documentação sobre os tipo de input `text` e `file`.
+
+- Para mostrar a imagem selecionada a partir do _input_ no elemento dentro do container, você precisará alterar a propriedade `src` desse elemento, passando para ele o caminho da imagem que foi carregada no _input_. [Essa resposta pode te ajudar a encontrar uma solução para esse enigma](https://stackoverflow.com/a/27165977).
+
+- Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado em uma pasta `/projetos/meme-generator`.
+
+---
+
+### DURANTE O DESENVOLVIMENTO
+
+* ⚠ **RECOMENDAMOS QUE VOCÊ FIQUE ATENTO ÀS ISSUES DO CODE CLIMATE, PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO. A PARTIR DO PRÓXIMO BLOCO SEU PROJETO SOMENTE SERÁ AVALIADO SE NÃO TIVER ISSUES NO CODE CLIMATE!** ⚠
+
+* Faça `commits` das alterações que você fizer no código regularmente;
+
+* Lembre-se de sempre após um ~~(ou alguns)~~ `commits` atualizar o repositório remoto (o famoso `git push`);
+
+* Os comandos que você utilizará com mais frequência são:
+
+  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_;
+
+  2. `git add` _(para adicionar arquivos ao stage do Git)_;
+
+  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_;
+
+  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_;
+
+  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_.
+
+---
+
+### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
+
+Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
+
+* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
+
+  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
+
+  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
+
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-08`.
+
+Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
+
+---
+
+### REVISANDO UM PULL REQUEST
+
+Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
 
 #VQV 🚀
